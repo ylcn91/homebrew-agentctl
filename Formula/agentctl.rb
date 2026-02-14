@@ -1,22 +1,22 @@
 class Agentctl < Formula
   desc "Multi-account AI agent manager with TUI dashboard"
   homepage "https://github.com/ylcn91/agentctl"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/ylcn91/agentctl/releases/download/v0.1.0/actl-darwin-arm64.tar.gz"
-      sha256 "80ba6b3992d814c598ec15fa18713a2a53ae71adaa848f69989dd672d4b2b032"
+      url "https://github.com/ylcn91/agentctl/releases/download/v0.2.0/actl-darwin-arm64.tar.gz"
+      sha256 "6f73bbd4968b95ff46b5da600464ee5f00b18847a88d116897f9ac4b0ad19fb7"
     else
-      url "https://github.com/ylcn91/agentctl/releases/download/v0.1.0/actl-darwin-x64.tar.gz"
-      sha256 "243efcf39725f01212dfd5fc6d5dd6263d504e902ac0a87503d4c898f51eb372"
+      url "https://github.com/ylcn91/agentctl/releases/download/v0.2.0/actl-darwin-x64.tar.gz"
+      sha256 "a421984d6e102f03e6cb32fe727f64747592f9b9f82b99f7369a034f994aae18"
     end
   end
 
   on_linux do
-    url "https://github.com/ylcn91/agentctl/releases/download/v0.1.0/actl-linux-x64.tar.gz"
-    sha256 "9bbb8fd5408e7f1c4beff0e313fe404877bee4eb5bd8d6e3470aedf2b5b8e34f"
+    url "https://github.com/ylcn91/agentctl/releases/download/v0.2.0/actl-linux-x64.tar.gz"
+    sha256 "27560334d5e18a957c49903996b8c35b8523bf1f795a14aa98d0d6493ec888e5"
   end
 
   def install
